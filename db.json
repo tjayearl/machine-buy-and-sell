@@ -1,9 +1,314 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cars": [
+    {
+      "id": "1",
+      "name": "Toyota gt86",
+      "category": "most affordable",
+      "color": "Silver",
+      "engine": "2.0l 4-cylinder",
+      "manufactured": "2011",
+      "image": "https://images.pexels.com/photos/17245097/pexels-photo-17245097/free-photo-of-white-toyota-gt86-on-a-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 20000
+    },
+    {
+      "id": "2",
+      "name": "Lamborghini Huracan",
+      "category": "sports",
+      "color": "Blue",
+      "engine": "5.2L V10",
+      "manufactured": "2023",
+      "image": "https://images.pexels.com/photos/27985076/pexels-photo-27985076/free-photo-of-lamborghini-huracan.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 100000
+    },
+    {
+      "id": "3",
+      "name": "Tesla Model S",
+      "category": "electric",
+      "color": "Blue",
+      "engine": "Dual Motor",
+      "manufactured": "2024",
+      "image": "https://images.pexels.com/photos/16653735/pexels-photo-16653735/free-photo-of-view-of-a-black-tesla-model-s-on-a-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 80000
+    },
+    {
+      "id": "4",
+      "name": "Mercedes-Benz S-Class",
+      "category": "luxury",
+      "color": "Black",
+      "engine": "3.0L Turbo V6",
+      "manufactured": "2023",
+      "image": "https://images.pexels.com/photos/20123634/pexels-photo-20123634/free-photo-of-new-mercedes-benz-in-showroom.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 120000
+    },
+    {
+      "id": "5",
+      "name": "Toyota land cruiser",
+      "category": "SUV",
+      "color": "brown",
+      "engine": "4.6L V8",
+      "manufactured": "2023",
+      "image": "https://images.pexels.com/photos/18029616/pexels-photo-18029616/free-photo-of-brown-toyota-land-cruiser.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 70000
+    },
+    {
+      "id": "6",
+      "name": "Ferrari 296 GTB",
+      "category": "sports",
+      "color": "Red",
+      "engine": "V6 turbo engine",
+      "manufactured": "2021",
+      "image": "https://images.pexels.com/photos/29831790/pexels-photo-29831790/free-photo-of-shiny-red-ferrari-sports-car-in-showroom.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 150000
+    },
+    {
+      "id": "7",
+      "name": "porsche 992 gt3 rs",
+      "category": "sports",
+      "color": "grey",
+      "engine": "4.oL flat-six",
+      "manufactured": "2022",
+      "image": "https://images.pexels.com/photos/30821414/pexels-photo-30821414/free-photo-of-sleek-modern-sports-car-with-golden-rims.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 200000
+    },
+    {
+      "id": "8",
+      "name": "mercedes benz A-class",
+      "category": "hatchback",
+      "color": "Blue",
+      "engine": "1.3L Turbo",
+      "manufactured": "2014",
+      "image": "https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 10000
+    },
+    {
+      "id": "9",
+      "name": "BMW M5",
+      "category": "sports",
+      "color": "green",
+      "engine": "4.4L V8",
+      "manufactured": "2019",
+      "image": "https://images.pexels.com/photos/17888840/pexels-photo-17888840/free-photo-of-a-blue-bmw-m5-parked-on-a-street-at-night.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 15000
+    },
+    {
+      "id": "10",
+      "name": "Audi RS7",
+      "category": "sedan",
+      "color": "red",
+      "engine": "4.0L V8",
+      "manufactured": "2022",
+      "image":"https://images.pexels.com/photos/8634582/pexels-photo-8634582.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 12000
+    },
+    {
+      "id": "11",
+      "name": "Hyundai i20 n",
+      "category": "hatchback",
+      "color": "white",
+      "engine": "1.6L Turbo",
+      "manufactured": "2020",
+      "image": "https://images.pexels.com/photos/9846085/pexels-photo-9846085.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 5000
+    },
+    {
+      "id": "12",
+      "name": "kia venga",
+      "category": "hatchback",
+      "color": "white",
+      "engine": "1.4l petrol",
+      "manufactured": "2020",
+      "image": "https://images.pexels.com/photos/7290405/pexels-photo-7290405.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 6000
+    },
+    {
+      "id": "13",
+      "name": "golf gti",
+      "category": "hatchback",
+      "color": "blue",
+      "engine": "2.0l inline-4",
+      "manufactured": "2023",
+      "image": "https://images.pexels.com/photos/20869390/pexels-photo-20869390/free-photo-of-view-of-a-parked-volkswagen-golf-vii-gti.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 10000
+    },
+    {
+      "id": "14",
+      "name": "dacia logan",
+      "category": "most affordable",
+      "color": "red",
+      "engine": "1.0l petrol",
+      "manufactured": "2017",
+      "image": "https://images.pexels.com/photos/19922984/pexels-photo-19922984/free-photo-of-red-dacia-duster-left-on-the-roadside.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 5000
+    },
+    {
+      "id": "15",
+      "name": "smart fortwo",
+      "category": "most affordable",
+      "color": "blue",
+      "engine": "1.0l 3-cylinder",
+      "manufactured": "2019",
+      "image": "https://images.pexels.com/photos/18379620/pexels-photo-18379620/free-photo-of-blue-smart-forfour.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 3000
+    },
+    {
+      "id": "16",
+      "name": "Toyota RAV4",
+      "category": "most affordable",
+      "color": "Silver", 
+      "engine": "2.5L 4-cylinder",
+      "manufactured": "2018",
+      "image": "https://images.pexels.com/photos/2036544/pexels-photo-2036544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 6000    
+    },
+    {
+      "id": "17",
+      "name": "Audi e-tron",
+      "category": "electric",
+      "color": "silver",
+      "engine": "Dual Motor",
+      "manufactured": "2020",
+      "image": "https://images.pexels.com/photos/9452202/pexels-photo-9452202.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 15000
+    },
+    {
+      "id": "18",
+      "name": "mercedes eqs",
+      "category": "electric",
+      "color": "black",
+      "engine": "Dual Motor",
+      "manufactured": "2022",
+      "image": "https://images.pexels.com/photos/29779244/pexels-photo-29779244/free-photo-of-sleek-black-mercedes-benz-eqs-in-urban-sunset.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 18000
+    },
+    {
+      "id": "19",
+      "name": "Tesla model s",
+      "category": "electric",
+      "color": "blue",
+      "engine": "Dual Motor",
+      "manufactured": "2023",
+      "image": "https://images.pexels.com/photos/3954401/pexels-photo-3954401.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 12000
+    },
+    {
+      "id": "20",
+      "name": "Rolls Royce ghost",
+      "category": "luxury",
+      "color": "white",
+      "engine": "6.75L V12",
+      "manufactured": "2012",
+      "image": "https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 30000
+    },
+    {
+      "id": "21",
+      "name": "Bentley Continental GT",
+      "category": "luxury",
+      "color": "black",
+      "engine": "6.0L W12",
+      "manufactured": "2021",
+      "image": "https://images.pexels.com/photos/6872163/pexels-photo-6872163.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 25000
+    },
+    {
+      "id": "22",
+      "name": "Lamborghini urus",
+      "category": "SUV",
+      "color": "blue",
+      "engine": "5.2L V10",
+      "manufactured": "2022",
+      "image": "https://images.pexels.com/photos/29603045/pexels-photo-29603045/free-photo-of-sleek-blue-lamborghini-urus-front-view-in-urban-setting.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 22000
+    },
+    {
+      "id": "23",
+      "name": "Land Rover Defender",
+      "category": "SUV",
+      "color": "silver",
+      "engine": "3.0L V6",
+      "manufactured": "2021",
+      "image": "https://images.pexels.com/photos/29999371/pexels-photo-29999371/free-photo-of-luxury-land-rover-defender-in-milan.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 18000
+     
+    },
+    {
+      "id": "24",
+      "name": "caddilac escalade",
+      "category": "SUV",
+      "color": "white",
+      "engine": "6.2L V8",
+      "manufactured": "2019",
+      "image": "https://images.pexels.com/photos/18441129/pexels-photo-18441129/free-photo-of-cadillac-escalade-by-puddle-at-night.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 25000
+    },
+    {
+      "id": "25",
+      "name": "mercedes g-class",
+      "category": "luxury",
+      "color": "brown",
+      "engine": "4.0L V8",
+      "manufactured": "2018",
+      "image": "https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 30000
+    },
+    {
+      "id": "26",
+      "name": "BMW 320d",
+      "category": "sedan",
+      "color": "blue",
+      "engine": "2.0L 4-cylinder",
+      "manufactured": "2014",
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 15000
+    },
+    {
+      "id": "27",
+      "name": "saab 9-3",
+      "category": "sedan",
+      "color": "grey",
+      "engine": "2.8L V6",
+      "manufactured": "2008",
+      "image": "https://images.pexels.com/photos/218719/pexels-photo-218719.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 12000
+    },
+    {
+      "id": "28",
+      "name": "caddilac ct4",
+      "category": "sedan",
+      "color": "blue",
+      "engine": "2.7L 4-cylinder",
+      "manufactured": "2022",
+      "image": "https://images.pexels.com/photos/27404360/pexels-photo-27404360/free-photo-of-cadillac-ct5-v-blackwing.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "inStock": true,
+      "price": 18000
+    
+    }
+  ]
 }
